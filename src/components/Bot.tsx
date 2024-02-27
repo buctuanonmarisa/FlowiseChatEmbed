@@ -795,10 +795,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
           </div>
         ) : null}
         <div class="flex flex-col w-full h-full justify-start z-0">
-          <div
-            ref={chatContainer}
-            class="messagelist"
-          >
+          <div ref={chatContainer} class="messagelist">
             <For each={[...messages()]}>
               {(message, index) => {
                 return (
