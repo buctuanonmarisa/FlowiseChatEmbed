@@ -1,0 +1,3 @@
+update code from the original repo of FlowiseChatEmbed
+git remote add upstream https://github.com/FlowiseAI/FlowiseChatEmbed
+git pull upstream main
