@@ -431,11 +431,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         class={'relative flex w-full h-full text-base overflow-hidden bg-cover bg-center flex-col items-center chatbot-container ' + props.class}
       >
         <div class="flex w-full h-full justify-center">
-          <div
-            style={{ 'padding-bottom': '100px', 'padding-top': '70px', 'height':' 600px' }}
-            ref={chatContainer}
-            class="messagelist"
-          >
+          <div style={{ 'padding-bottom': '100px', 'padding-top': '70px', height: ' 600px' }} ref={chatContainer} class="messagelist">
             <For each={[...messages()]}>
               {(message, index) => (
                 <>
