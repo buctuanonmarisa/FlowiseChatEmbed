@@ -434,3 +434,11 @@ input {
   padding: 10px 10px;
   font-family: 'Poppins', sans-serif;
 }
+
+.messagelist1 {
+  border-radius: 0.5rem;
+  height: 100%;
+  overflow-y: scroll;
+  width: 100%;
+  margin-top: 15%;
+}
